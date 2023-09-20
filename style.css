@@ -150,3 +150,40 @@ canvas{
 .right>h3{
     font-weight: 400;
 }
+.left-two{
+    position: absolute;
+    top: 45%;
+    left: 8%;
+    font-size: 45px;
+
+}
+
+.left-two>h3{
+    position: absolute;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 1.5;
+    padding: 20px 0px;
+}
+.right-two>p{
+    position: absolute;
+    top: 65%;
+    right: 10%;
+    text-align: end;
+}
+.text-left{
+    position: absolute;
+    font-size: 47px;
+    font-weight: 400;
+    left: 5%;
+    top: 35%;
+}
+.text-right{
+    position: absolute;
+    font-size: 45px;
+    font-weight: 200;
+    text-align: end;
+    right: 10%;
+    top: 70%;
+
+}

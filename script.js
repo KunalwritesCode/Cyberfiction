@@ -408,7 +408,7 @@ function locomotive() {
   ScrollTrigger.create({
     trigger: ".section1>canvas",
     pin: true,
-    markers:true,
+    markers:false,
     scroller: `#main`,
     start: `top top`,
     end: `600% top`,
@@ -421,7 +421,7 @@ function locomotive() {
         trigger: '.section2',
         start : 'top top',
         end:'bottom top',
-        markers : true,
+        markers : false,
         pin: true,
         scroller : '#main'
     }
@@ -432,7 +432,7 @@ gsap.to(".section3",{
         trigger: '.section3',
         start : 'top top',
         end:'bottom top',
-        markers : true,
+        markers : false,
         pin: true,
         scroller : '#main'
     }
@@ -443,7 +443,7 @@ gsap.to(".section4",{
         trigger: '.section4',
         start : 'top top',
         end:'bottom top',
-        markers : true,
+        markers : false,
         pin: true,
         scroller : '#main'
     }
