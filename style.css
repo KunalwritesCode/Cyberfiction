@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Urbanist, "Noto Sans KR", sans-serif;
 }
 
 html , body{
@@ -25,19 +26,19 @@ html , body{
 .section2 {
     height: 100vh;
     width: 100vw;
-    background-color: purple;
+    background-color: #181a1b;
 
 }
 .section3 {
     height: 100vh;
     width: 100vw;
-    background-color: red;
+    background-color: #181a1b;
 
 }
 .section4 {
     height: 100vh;
     width: 100vw;
-    background-color: green;
+    background-color: #181a1b;
 
 }
 
@@ -84,4 +85,68 @@ canvas{
     100%{
         transform: translate(-100%);
     }
+}
+
+#navbar{
+    height: 7%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    position: fixed;
+    z-index: 20;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+    position: fixed;
+
+
+}
+#navbar>h3{
+    
+    font-weight: 400;
+    font-size: 24px;
+
+}
+
+#navbar>button{
+     border-radius: 45px;
+     border: none;
+     background-color: #181a1b;
+     padding: 10px 20px ;
+}
+
+.section1>h3{
+     left: 5%;
+     position:absolute;
+     font-weight: 300;
+     top: 55%;
+}
+
+.section1>h4{
+    position: absolute;
+    top: 70%;
+    left: 25%;
+} 
+.left{
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 200;
+}
+
+.right{
+    position: absolute;
+    top: 48%;
+    right: 10%;
+    text-align: end;
+}
+.right>h1{
+    line-height: 1.5;
+    font: size 50px; ;
+}
+.right>h3{
+    font-weight: 400;
 }
