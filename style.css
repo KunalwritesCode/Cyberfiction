@@ -94,14 +94,12 @@ canvas{
     height: 7%;
     width: 100%;
     background-color: #181a1b;
-    display: flex;
     position: fixed;
     z-index: 20;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0px 30px;
-    position: fixed;
     color: #fff;
 
 
@@ -155,7 +153,7 @@ canvas{
 }
 .right>h1{
     line-height: 1.5;
-    font: size 50px; ;
+    font-size: 50px;
 }
 .right>h3{
     font-weight: 400;
